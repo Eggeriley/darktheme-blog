@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My PNW Adventure</title>
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/f9ef05dfcd.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="text-gray-800 bg-gradient-to-br from-gray-100 to-blue-100 dark:bg-gradient-to-br dark:text-gray-50 dark:from-gray-700 dark:to-gray-900">
+  <header class="flex w-full shadow xl:px-24	xl:py-8 lg:px-24	lg:py-8 md:px-12	md:py-6 sm:px-6	sm:py-4">
+    <div class="m8 p8">
+      <h1 class="text-3xl"><i class="fas fa-mountain text-purple-800 dark:text-purple-300"></i> PNW Hikes</h1>
+      <p class="text-gray-600 dark:text-gray-300">
+        Where will you go next?
+      </p>
+    </div>
+    <input type="checkbox" name="theme" id="toggle" class="hidden">
+    <div class="flex justify-end flex-1 items-center">
+      <label for="toggle">
+        <div class="flex justify end items center space-x-2 cursor-pointer">
+          <span class="text-sm text-gray-800"><i
+              class="far fa-sun text-purple-800 fa-2x rounded-full shadow-md dark:text-gray-400"></i></span>
+          <div>
+            <div class="w-9 flex items-center h-5 bg-gray-300 rounded-full p-1">
+              <div
+                class="toggle-dot w-4 h-4 bg-white rounded-full shadow-md transform duration-300 ease-in-out dark:bg-gray-700">
+              </div>
+            </div>
+          </div>
+          <span class="text-sm text-gray-400 dark:text-purple-300"><i
+              class="far fa-moon fa-2x rounded-full shadow-md"></i></span>
+        </div>
+      </label>
+    </div>
+  </header>
+  <div class="">
+    <section id="greeting" class="pt-4 mx-12 px-12 lg:px-8 lg:mx-8  md:px-4 md:mx-4 sm:px-2 sm:mx-2">
+      <div class="min-w-0 w-full flex-auto lg:static lg:max-h-full lg:overflow-visible">
+        <div class="px-4 sm:px-6 xl:px-8 pt-10 pb-16 flex items-center xl:flex lg:flex md:block sm:block">
+          <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full">
+            <h2 class="text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-4 dark:text-gray-200">
+              Adventure Awaits</h2>
+            <p class="text-2xl tracking-tight mb-10 text-gray-400">The world is a beautiful place, full of adventure
+              <br>and love. Choose a destination and let's get going!</p>
+            <p class="text-xl tracking-tight mb-10 text-gray-400">Follow me across all my adventures in the PNW! <i
+                class="fas fa-tree text-green-600"></i><i class="fas fa-tree text-2xl text-green-800"></i></p>
+          </div>
+          <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full flex items-center justify-center">
+            <div class="bg-gray-400 p-8 md:p-3 flex items-center justify-center rounded-full">
+            <img class="w-1/2 flex" src="img/treehike.svg">
+          </div>
+          </div>
+        </div>
+    </section>
+    <section class="xl:p-12 xl:m-12 lg:p-8 lg:m-8 md:p-6 md:m-6 sm:p-2 sm:m-2">
+      <div class="mb-2 flex justify-end">
+        <span
+          class="dark:text-white mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-yellow-200 hover:bg-gray-400 cursor-pointer">
+          Moutains
+        </span>
+        <span
+          class="dark:text-white mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-purple-200 hover:bg-gray-400 cursor-pointer">
+          Valleys
+        </span>
+        <span
+          class="dark:text-white mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-green-200 hover:bg-gray-400 cursor-pointer">
+          Rivers
+        </span>
+        <span
+          class="dark:text-white mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-blue-200 hover:bg-gray-400 cursor-pointer">
+          Oceans
+        </span>
+      </div>
+      <div id="blog" class="grid md:grid-cols-3 gap-7 text-white">
+        <article style="height: fit-content"
+          class=" w-full relative overflow-hidden rounded-2xl flex shadow-lg bg-gray-800">
+          <div class="w-full bg-gradient-to-br from-green-400 to-green-700">
+            <img class="w-full h-56 object-cover object-center"
+              src="https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"></img>
+            <div class="p-4 m-4">
+              <div class="text-xl font-semibold mb-2">
+                <span>Mt ararat </span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 inline-flex text-xs bg-yellow-200 float-right hover:bg-yellow-400 cursor-pointer">Mountains</span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">
+                  Climbing</span>
+              </div>
+              <div class="font-medium md-2 text-shadow">Morbi dictum, odio ut tincidunt commodo, eros justo rhoncus
+                massa, sed gravida lorem risus sit amet eros. In vitae molestie felis. Nulla ut sollicitudin mi. Etiam a
+                pharetra sapien, sit amet ultrices velit. Mauris nulla massa, auctor at cursus at, ornare in nisi. Etiam
+                et mollis ante, ut ullamcorper augue. Aliquam sed efficitur magna. Maecenas non tortor lectus. In leo
+                lectus, fringilla non turpis in, luctus fringilla enim. Aenean ac malesuada sem.</div>
+            </div>
+          </div>
+        </article>
+        <article style="height: fit-content"
+          class="w-full relative overflow-hidden rounded-2xl flex shadow-lg bg-gray-800">
+          <div class="w-full bg-gradient-to-br from-purple-500 to-indigo-500">
+            <img class="w-full h-56 object-cover object-center"
+              src="https://images.unsplash.com/photo-1596834603216-1e81c634a7df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+            <div class="p-4 m-4">
+              <div class="text-xl font-semibold mb-2">
+                <span>Mt ararat </span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">Trees</span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">
+                  Lakes</span>
+              </div>
+              <div class="font-medium md-2 text-shadow">Pellentesque interdum mattis erat, non commodo sem consequat sit
+                amet. In commodo metus at varius tempor. Cras id velit nunc. Nunc in viverra nisi. Vestibulum egestas,
+                lectus at rutrum placerat, elit leo blandit mi, nec ultricies enim justo ac tortor. Praesent rutrum eu
+                metus non vulputate. Ut ut tempor arcu, ut ultricies odio.</div>
+            </div>
+          </div>
+        </article>
+        <article style="height: fit-content"
+          class="w-full relative overflow-hidden rounded-2xl flex shadow-lg bg-gray-800">
+          <div class="w-full bg-gradient-to-br from-purple-500 to-indigo-500">
+            <img class="w-full h-56 object-cover object-center"
+              src="https://images.unsplash.com/photo-1455577380025-4321f1e1dca7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cml2ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+            <div class="p-4 m-4">
+              <div class="text-xl font-semibold mb-2">
+                <span>Mt ararat </span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">Rivers</span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">
+                  Trees</span>
+              </div>
+              <div class="font-medium md-2 text-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur a cursus risus. Fusce in eleifend dui. Cras felis ipsum, mattis maximus dignissim eu,
+                imperdiet id lorem. In ut diam quis felis placerat dapibus et ut nisl. Nam in pharetra nisl, id ultrices
+                urna. Maecenas dapibus imperdiet orci id pellentesque. Quisque hendrerit, justo id commodo luctus, velit
+                est bibendum urna, sit amet consequat sapien augue et justo.</div>
+            </div>
+          </div>
+        </article>
+        <article style="height: fit-content"
+          class=" w-full relative overflow-hidden rounded-2xl flex shadow-lg bg-gray-800">
+          <div class="w-full bg-gradient-to-br from-green-400 to-green-700">
+            <img class="w-full h-56 object-cover object-center"
+              src="https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"></img>
+            <div class="p-4 m-4">
+              <div class="text-xl font-semibold mb-2">
+                <span>Mt ararat </span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">Mountains</span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">
+                  Climbing</span>
+              </div>
+              <div class="font-medium md-2 text-shadow">Morbi dictum, odio ut tincidunt commodo, eros justo rhoncus
+                massa, sed gravida lorem risus sit amet eros. In vitae molestie felis. Nulla ut sollicitudin mi. Etiam a
+                pharetra sapien, sit amet ultrices velit. Mauris nulla massa, auctor at cursus at, ornare in nisi. Etiam
+                et mollis ante, ut ullamcorper augue. Aliquam sed efficitur magna. Maecenas non tortor lectus. In leo
+                lectus, fringilla non turpis in, luctus fringilla enim. Aenean ac malesuada sem.</div>
+            </div>
+          </div>
+        </article>
+        <article style="height: fit-content"
+          class="w-full relative overflow-hidden rounded-2xl flex shadow-lg bg-gray-800">
+          <div class="w-full bg-gradient-to-br from-purple-500 to-indigo-500">
+            <img class="w-full h-56 object-cover object-center"
+              src="https://images.unsplash.com/photo-1596834603216-1e81c634a7df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+            <div class="p-4 m-4">
+              <div class="text-xl font-semibold mb-2">
+                <span>Mt ararat </span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">Trees</span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">
+                  Lakes</span>
+              </div>
+              <div class="font-medium md-2 text-shadow">Pellentesque interdum mattis erat, non commodo sem consequat sit
+                amet. In commodo metus at varius tempor. Cras id velit nunc. Nunc in viverra nisi. Vestibulum egestas,
+                lectus at rutrum placerat, elit leo blandit mi, nec ultricies enim justo ac tortor. Praesent rutrum eu
+                metus non vulputate. Ut ut tempor arcu, ut ultricies odio.</div>
+            </div>
+          </div>
+        </article>
+        <article style="height: fit-content"
+          class="w-full relative overflow-hidden rounded-2xl flex shadow-lg bg-gray-800">
+          <div class="w-full bg-gradient-to-br from-purple-500 to-indigo-500">
+            <img class="w-full h-56 object-cover object-center"
+              src="https://images.unsplash.com/photo-1455577380025-4321f1e1dca7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cml2ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+            <div class="p-4 m-4">
+              <div class="text-xl font-semibold mb-2">
+                <span>Mt ararat </span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">Rivers</span>
+                <span
+                  class="mt-auto bg-opacity-50 rounded-xl text-gray-800 font-med py-1 px-2 m-1 inline-flex text-xs bg-gray-200 float-right hover:bg-gray-400 cursor-pointer">
+                  Trees</span>
+              </div>
+              <div class="font-medium md-2 text-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur a cursus risus. Fusce in eleifend dui. Cras felis ipsum, mattis maximus dignissim eu,
+                imperdiet id lorem. In ut diam quis felis placerat dapibus et ut nisl. Nam in pharetra nisl, id ultrices
+                urna. Maecenas dapibus imperdiet orci id pellentesque. Quisque hendrerit, justo id commodo luctus, velit
+                est bibendum urna, sit amet consequat sapien augue et justo.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+  </div>
+  </section>
+  <footer class="w-full ">
+    <div class="xl:m-8 xl:p-8 lg:m-8 lg:p-8 md:m-4 md:p-4 sm:p-3 sm:m-3">
+      <div class="border-t border-gray-300 pt-6">
+        <div class=""><i class="fas fa-mountain text-3xl text-purple-800 dark:text-purple-300 center m-2"></i><span class="text-3xl m-2"> PNW Hikes</span>
+          <div class="float-right">
+            <p class="font-bold xl:block lg:block md:hidden sm:hidden">Clone this template</p>
+            <p class="text-center mt-2"><i class="fab fa-github fa-2x text-center"></i></p>
+          </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-300 xl:m-4 lg:m-4 md:mt-12 sm:mt-12 text-center">Made with <i class="fas fa-heart"></i> by <a href="https://www.accessipd.com">Access</a></p>
+    </div>
+    </div>
+  </footer>
+
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
