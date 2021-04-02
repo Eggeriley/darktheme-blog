@@ -2,10 +2,10 @@
 Blog template with a dark theme switcher
 
 # Screenshots
-<a href="https://eggeriley.github.io/darktheme-blog/">
+<a target="_blank" href="https://eggeriley.github.io/darktheme-blog/">
 <img width="1440" alt="Screen Shot 2021-04-02 at 11 45 43 AM" src="https://user-images.githubusercontent.com/19999634/113444582-06563080-93a9-11eb-8d69-b5bd736fb977.png">
 </a>
-<a href="https://eggeriley.github.io/darktheme-blog/">
+<a target="_blank" href="https://eggeriley.github.io/darktheme-blog/">
 <img width="1440" alt="Screen Shot 2021-04-02 at 11 45 50 AM" src="https://user-images.githubusercontent.com/19999634/113444575-03f3d680-93a9-11eb-9830-dda717c2f0cf.png">
 </a>
 
